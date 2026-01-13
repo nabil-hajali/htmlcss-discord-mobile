@@ -4,3 +4,14 @@
     box-sizing: border-box;
 }
 /* reset pagina*/
+
+
+body{
+    width: 512px;
+}
+/* formato pagina*/
+
+.discord_banner{
+    width: 512px;
+}
+/* formato banner*/
