@@ -32,5 +32,53 @@ img {
 body {
     background-color: var(--dis-page-bg);
     width: 512px;
+    font-family: "DM Sans", sans-serif;
 }
 
+/*  Main */
+
+main {
+    padding: 4rem 30px;
+}
+
+.jumbotron {
+    text-align: center;
+    padding: 0 2rem;
+    color: var(--dis-white);
+}
+   
+
+h1 {
+    text-transform: uppercase;
+    font-family: "Sigmar", sans-serif;
+    line-height: 1;
+    font-size: 40px;
+    margin: 1rem 0;
+    font-weight: 500;
+    
+}
+
+.btn {
+    display: block;
+    width: 100%;
+    outline: none;
+    background-color: transparent;
+    border: none;
+    padding: 1rem 2rem;
+    margin: 1rem 0;
+    font-size: 18px;
+    text-decoration: none;
+    border-radius: 1rem;
+}
+
+
+.btn-light {
+    background-color: var(--dis-white);
+
+}
+
+.btn-primary {
+    background-color: var(--dis-primary-btn);
+    color: var(--dis-white);
+    
+}
