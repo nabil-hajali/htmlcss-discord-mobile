@@ -82,3 +82,45 @@ h1 {
     color: var(--dis-white);
     
 }
+
+
+/* Cards */
+
+.cards {
+    
+    margin-top: 4rem;
+}
+
+.card {
+    position: relative;
+    background-color: var(--dis-card-bg);
+    color: var(--dis-white);
+    border-radius: 2rem;
+    padding: 2rem;
+    margin: 3rem 0;
+}
+
+
+.card_img {
+    border-radius: 2rem;
+    margin: 1rem 0 3rem;
+}
+
+.card_icon {
+    width: 100px;
+    position: absolute;
+    top: 0;
+    left: 4rem;
+    transform: translateY(-50%);
+}
+
+
+h2 {
+    text-transform: uppercase;
+    font-family: "Sigmar", sans-serif;
+    line-height: 1;
+    font-size: 40px;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    font-weight: 500;
+}
