@@ -4,14 +4,18 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Sigmar&family=TikTok+Sans:opsz,wght@12..36,300..900&display=swap');
 
 
-
+/* reset pagina*/
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-/* reset pagina*/
 
+
+
+img {
+    max-width: 100%;
+}
 
 /* Css variables */
 
@@ -29,3 +33,4 @@ body {
     background-color: var(--dis-page-bg);
     width: 512px;
 }
+
